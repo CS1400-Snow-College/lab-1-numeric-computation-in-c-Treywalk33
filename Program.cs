@@ -32,3 +32,15 @@ double min1 = double.MinValue;
 Console.WriteLine($"The range of double is {min1} to {max1}");
 double third = 1.0 / 3.0;
 Console.WriteLine(third);
+
+decimal min2 = decimal.MinValue;
+decimal max2 = decimal.MaxValue;
+Console.WriteLine($"The range of the decimal type is {min2} to {max2}");
+
+double a3 = 1.0;
+double b3 = 3.0;
+Console.WriteLine(a3 / b3);
+
+decimal c3 = 1.0M;
+decimal d3 = 3.0M;
+Console.WriteLine(c3 / d3);
