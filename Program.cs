@@ -44,3 +44,7 @@ Console.WriteLine(a3 / b3);
 decimal c3 = 1.0M;
 decimal d3 = 3.0M;
 Console.WriteLine(c3 / d3);
+
+double r = 2.50;
+double x = Math.PI;
+Console.WriteLine(x*r*r);
