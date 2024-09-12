@@ -20,3 +20,15 @@ int min = int.MinValue;
 Console.WriteLine($"The range of integers is {min} to {max}");
 int what = max + 3;
 Console.WriteLine($"An example of overflow: {what}");
+
+
+double a1 = 57;
+double b1 = 4;
+double c1 = 23;
+double d1 = (a1 + b1) / c1;
+Console.WriteLine(d1);
+double max1 = double.MaxValue;
+double min1 = double.MinValue;
+Console.WriteLine($"The range of double is {min1} to {max1}");
+double third = 1.0 / 3.0;
+Console.WriteLine(third);
